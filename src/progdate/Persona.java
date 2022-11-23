@@ -3,6 +3,15 @@ package progdate;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+
+/**
+ * - Importare dentro la classe la funzionalità per stabilire tra due persone chi è più vecchio: deve restituire una stringa che risponda con "più vecchio di" o "più giovane di" in riferimento a chi riceve.
+ * - Testare con il metodo add() il passaggio di data incrementando la parte oraria.
+ * - Ordinare un elenco di persone create con la classe Persone dal più giovane al più vecchio.
+ * - Creare un elenco di prodotti con data di scadenza e cercare cosa scade in un intervallo tra due date.
+ * @author gabriel.ricaldone
+ */
+
 public class Persona 
 {
    
@@ -14,7 +23,13 @@ public class Persona
 		this.nome = n;
 		this.datan = d;
 	}
-
+        
+        public String compareTo(Persona persona1, Persona persona2) {
+            String confronto;
+            if(persona1.)
+            return persona1 + " è " + confronto + " di " + persona2;
+        }
+        
 	public String dammi_nome() 
         {
 		return(this.nome);
